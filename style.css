@@ -93,8 +93,8 @@ section {
 }
 .text1 {
     position: absolute;
-    z-index: -1;
-    top: -200px;
+    z-index: 1;
+    top: 20px;
     width: 60%;
 
 }
@@ -104,13 +104,39 @@ section {
     align-items: center;
     width: 450px;
 }
-.visionh {
+.vision{
+    width: 100%;
+    min-height: 70vh;
+    background-color: #2f2938; /* similar to screenshot */
     display: flex;
-    position: relative
+    flex-direction: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 10%;
+    gap: 40px;
 }
-.vision1 {
 
+.visionh h2{
+    color: #f5e6c8;
+    font-size: 4rem;
+    letter-spacing: 10px;
 }
+
+.vision-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.vision1,
 .vision2{
-    
+    width: 45%;
+}
+
+.vision1 p,
+.vision2 p{
+    color: #d0d0d0;
+    line-height: 2;
+    font-size: 1.1rem;
 }
